@@ -1,0 +1,16 @@
+{
+  "name": "async-aws-lambda-template",
+  "version": "1.0.0",
+  "description": "Async AWS Lambda template",
+  "main": "handler.js",
+  "scripts": {
+    "test": "serverless-bundle test"
+  },
+  "author": "kevin.llps",
+  "license": "ISC",
+  "devDependencies": {
+    "aws-sdk-client-mock": "^2.0.1",
+    "aws-sdk-client-mock-jest": "^2.0.1",
+    "serverless-bundle": "^6.0.0"
+  }
+}
